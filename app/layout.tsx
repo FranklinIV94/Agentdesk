@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Agentdesk — AI Workflow Automation for Small Business",
-  description:
-    "Stop doing repetitive work. Agentdesk embeds AI agents into your business workflows — invoices, intake, scheduling — with a human approval checkpoint. 80% automation, 99.9% reliability.",
+  title: "Prospyr 305 — AI Workflow Automation for Business",
+  description: "We embed AI agents into your repetitive workflows — invoices, intake, scheduling — with human checkpoints. 80% automation, 99.9% reliability. By Prospyr 305.",
   openGraph: {
-    title: "Agentdesk — AI Workflow Automation",
-    description: "AI agents that do the work. You approve the results.",
+    title: "Prospyr 305 — AI Workflow Automation",
+    description: "Your AI agent does the work. You approve the results.",
+    url: "https://prospyr305.simplifyingbusinesses.com",
+    siteName: "Prospyr 305",
     type: "website",
   },
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-slate-950 text-white antialiased">{children}</body>
     </html>
   );
 }
